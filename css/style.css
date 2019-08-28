@@ -1,0 +1,261 @@
+html, body{
+    margin:0;
+    padding:0;
+    min-width: 640px;
+}
+
+.initial {
+  padding-top:50px;
+}
+
+.menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	height: 80px;
+	color:black;
+	background-color:#333333;
+	padding:0;
+	z-index:100;
+}
+
+.menu h1 {
+	margin: 0;
+	padding-left: 10px;
+  	font-size:36px;
+  	line-height: 80px;
+	font-weight: 200px;
+	font-family: Roboto;
+	font-style: normal;
+	color: 	white;
+	display: inline-block;
+	position: absolute;
+}
+
+.avatar {
+	padding-left: 15px;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.avatar img {
+  width: 60px;
+  height: 60px;       
+  vertical-align: middle;         
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.menu-box {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	line-height: 80px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu-link {
+    display: inline-block;
+    height: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0px 20px 0px 20px;
+	font-family: Roboto;
+	font-style: normal;
+	color: white;
+}
+
+.slide_photo {
+	height:450px;
+	width:100%;
+	background-color: #ffffff;
+}
+
+a.slide_description_link:link {color:#000000;}
+a.slide_description_link:visited {color:#000000;}
+
+.slide_description {
+  padding: 42px 0 42px 0;
+  background-color: #f0f0f0
+}
+
+.slide_description h1 {
+	margin: 0;
+	font-family: Roboto;
+	font-size: 40px;
+}
+
+.slide_description h2 {
+	margin: 0;
+	font-family: Roboto;
+	font-size: 18px;
+}
+
+.slide_description p {
+	font-family: Roboto;
+	font-weight: 200;
+}
+
+#waggle
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/Waggle/WaggleHeader.jpg')  center 0 no-repeat #ffffff;
+}
+
+#dcflow
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/Flow/FlowHeader.png')  center 0 no-repeat #ffffff;
+}
+
+#knockrentals
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/KnockRentals/KnockHeader.jpg')  center 0 no-repeat #ffffff;
+}
+
+#moat
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/Moat/moatHeaderTitle.jpg')  center 0 no-repeat #ffffff;
+}
+
+#randleslab
+{
+	background:url('../images/randlesLabHeader.jpg')  center 0 no-repeat #ffffff;
+}
+
+#aspiringuide
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/AspirinGuide/aspirinGuideHeader.jpg')  center 0 no-repeat #ffffff;
+}
+
+#maimstreet
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/maimStreetHeader.jpg')  center 0 no-repeat #ffffff;
+}
+
+#hotspot
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/hotspot_teaser.png')  center 0 no-repeat #ffffff;
+}
+
+#happy_hours
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/happyHoursHeader.png')  center 0 no-repeat #ffffff;
+}
+
+#quadstreaker
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/qs_lifeboard2.png')  center 0 no-repeat #ffffff;
+}
+
+#mutuality
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/mutuality_slide.jpg')  center 0 no-repeat #ffffff;
+}
+
+#menopro
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/MenoProHeader.png')  center 0 no-repeat #ffffff;
+}
+
+#badge
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/badgeHeader.png')  center 0 no-repeat #ffffff;
+}
+
+#canary
+{
+	background:url('https://s3.amazonaws.com/jeff_ames_personal/canaryHeader.png')  center 0 no-repeat #ffffff;
+}
+
+
+span {
+	color: black;
+	font-style: italic;
+	font-weight: 8;
+}
+
+.container {
+	width: 90%; /*width: 1000px;*/
+	max-width: 1000px;
+	margin: auto;
+	
+}
+
+.slide_description .thumbnails {
+  text-align:right;
+}
+
+.slide_description .thumbnails img {
+  margin-left:12px;
+  margin-top: 12px;
+  width: 200px;
+  height: 200px;
+  background-color:#8a8683;
+  cursor:pointer;
+  opacity:1;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.alpha{margin-left:0;}
+.omega{margin-right:0;}
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+
+.grid_info {
+	width: 45%; 
+	margin: 0 1% 1% 0;
+	float: left;
+	display: block;
+} 
+
+.grid_info_full {
+	width: 80%; 
+	margin: 0 0% 0% 0;
+	float: left;
+	display: block;
+}
+
+.grid_thumbnail {
+	width: 50%; 
+	margin: 0 1% 1% 0;
+	float: right;
+	display: block;
+}
+
+a.project_link:link {
+	color: #000000;
+}
+
+a.project_link:visited {
+	color: #444444;
+}
+
+.buttons {
+  margin-top: 32px;
+}
+
+.buttons a {
+  display:inline-block;
+  text-align:left;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height:48px;
+  height: 44px;
+  margin-right: 30px;
+}
+
