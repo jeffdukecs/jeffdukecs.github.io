@@ -133,6 +133,11 @@ a.slide_description_link:visited {color:#000000;}
 	background:url('https://s3.amazonaws.com/jeff_ames_personal/AspirinGuide/aspirinGuideHeader.jpg')  center 0 no-repeat #ffffff;
 }
 
+#silverscore
+{
+	background:url('../images/silverheader.jpg')  center 0 no-repeat #ffffff;
+}
+
 #maimstreet
 {
 	background:url('https://s3.amazonaws.com/jeff_ames_personal/maimStreetHeader.jpg')  center 0 no-repeat #ffffff;
